@@ -106,26 +106,36 @@ h1.border-headline:after {
 }
 
 .hero-section,
-.featured-article {
+.feature-article {
     position: relative;
     margin-bottom: 50px;
 }
 
-.hero-section img {
+.hero-section img,
+.feature-article img {
     width: 100%;
     height: auto;
     z-index: 1;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.hero-text-box {
+.hero-text-box,
+.feature-text-box {
     background: #fff;
+    position: absolute;
+    max-width: 510px;
+    padding: 75px 40px;
+    z-index: 2;
+}
+
+.hero-text-box {
     top: 0;
     left: 45px;
-    position: absolute;
-    z-index: 2;
-    padding: 75px 40px;
-    max-width: 510px;
+}
+
+.feature-text-box {
+    top: 54px;
+    right: 78px;
 }
 
 .article .article-tag {
@@ -157,20 +167,73 @@ h1.border-headline:after {
     margin-left: .9375rem;
 }
 
-.feature-text-box {
-    background: #fff;
-    position: absolute;
-    width: 509px;
-    height: 483px;
-    top: 0;
-    left: 50%;
-    margin: 55px 78px 55px 0;
+.brick_news_list h1,
+.tags h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
+.brick_news_list h1 {
+    font-size: 42px;
+    line-height: 57.2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-.brick_news_list h1,
-.tags h6{
+.feature-article,
+.recent-posts {
+    margin-top: 50px;
+}
+
+.recent-post {
+    margin-bottom: 50px;
+}
+
+.tags h5 {
+
+}
+
+.tags ul li {
+    list-style: none;
+    line-height: 45px;
+}
+
+footer {
+    background-color: #1C1C1C;
+    max-height: 425px;
+    height: 100%;
+    position: relative;
+}
+
+.footer-text-box {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-text-box h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 41px;
+    margin-bottom: 17px;
     text-align: center;
 }
 
+.footer-text-box p {
+    line-height: 24px;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media a{
+    display: inline-block;
+    margin: 28px 15px 0 0;
+    color: #FFFFFF;
+}
 
