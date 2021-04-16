@@ -208,9 +208,52 @@ footer {
 .footer-text-box {
     color: #ffffff;
     position: absolute;
-    top: 50%;
+    width: 509px;
+    height: 483px;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 55px 78px 55px 0;
+}
+
+.brick_news_list h1,
+.tags h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.brick_news_list h1 {
+    font-size: 42px;
+    line-height: 57.2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feature-article,
+.recent-posts {
+    margin-top: 50px;
+}
+
+.recent-post {
+    margin-bottom: 50px;
+}
+
+.tags h5 {
+
+}
+
+.tags ul li {
+    list-style: none;
+    line-height: 45px;
+}
+
+footer .box {
+    background-color: #1C1C1C;
+    padding: 120px 0;
+}
+
+.footer-text-box {
+    color: #ffffff;
+>>>>>>> Stashed changes
 }
 
 .footer-text-box h5 {
@@ -237,3 +280,100 @@ footer {
     color: #FFFFFF;
 }
 
+/* ######### BLOG DETAIL ####### */
+
+.blog.detail .content .text-center {
+    text-align: center;
+}
+
+.blog.detail .content h1 {
+    margin-top: 55px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.blog.detail .autor  {
+    display: block;
+    margin-top: 20px;
+}
+
+.blog.detail .autor b,.blog.detail .autor i {
+    display: block;
+    font-weight: 400;
+    color: rgba(28, 28, 28, 0.5);
+}
+
+.blog.detail .copy {
+    margin-top: 25px;
+}
+
+.blog.detail .author-about {
+    margin-top: 70px;
+}
+
+.blog.detail .author-about img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.blog.detail .author-about h3 {
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(28, 28, 28, 0.5);
+}
+
+.blog.detail .author-about h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.blog.detail .author-about h2 b {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: rgba(28, 28, 28, 0.5);
+}
+
+.blog.detail .author-about p {
+    margin-top: 20px;
+}
+
+.blog.detail .post-navigation {
+    margin-top: 160px;
+
+}
+
+.blog.detail .post-navigation a {
+    position: relative;
+    display: block;
+    color: #000;
+
+}
+
+.blog.detail .post-navigation a i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 185px;
+}
+
+.blog.detail .post-navigation a.next {
+    padding-right: 185px;
+}
+
+.blog.detail .post-navigation .next:after, .blog.detail .post-navigation .prev:after {
+    content: "";
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+
+}
+
+.blog.detail .post-navigation .next:after {
+    float: right;
+}
