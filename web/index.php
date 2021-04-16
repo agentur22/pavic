@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<<<<<<< Updated upstream
        <div class="grid-container">
 <header>
     <div class="grid-container">
@@ -231,6 +232,27 @@
 <script src="../assets/js/vendor.js"></script>
 <script src="../assets/js/foundation.js"></script>
        </div>
+=======
+
+<?php
+include_once "nav.php";
+?>
+
+    <main>
+        <?php
+            // include_once "home.php";
+            include_once "detail.php";
+        ?>
+    </main>
+
+    <?php
+    include_once "footer.php";
+    ?>
+
+    <script src="../assets/js/vendor.js"></script>
+    <script src="../assets/js/foundation.js"></script>
+
+>>>>>>> Stashed changes
 </body>
 </html>
 
