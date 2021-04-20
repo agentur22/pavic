@@ -228,6 +228,9 @@ h1.border-headline:after {
     list-style: none;
     line-height: 45px;
 }
+footer {
+    margin-top: 50px;
+}
 
 footer .box {
     background-color: #1C1C1C;
@@ -296,7 +299,6 @@ footer .box {
 
 .blog.detail .author-about img {
     display: block;
-    width: 100%;
     max-width: 100%;
 }
 
@@ -334,6 +336,12 @@ footer .box {
 
 }
 
+.blog.detail .post-navigation a:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .blog.detail .post-navigation a i {
     display: block;
     position: absolute;
@@ -343,19 +351,30 @@ footer .box {
     padding-left: 185px;
 }
 
-.blog.detail .post-navigation a.next {
+.blog.detail .post-navigation a.next i {
+    padding-left: 0;
     padding-right: 185px;
+    right: 0;
+    left: 0;
+    text-align: right;
 }
 
-.blog.detail .post-navigation .next:after, .blog.detail .post-navigation .prev:after {
+.blog.detail .post-navigation .next:before,
+.blog.detail .post-navigation .prev:before {
     content: "";
     display: inline-block;
     height: 150px;
     width: 150px;
     background-color: #000;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.blog.detail .post-navigation .next:after {
+.blog.detail .post-navigation .next:before {
     float: right;
+    background-image: url("/assets/img/icon-next.svg");
+}
+
+.blog.detail .post-navigation .prev:before {
+    background-image: url("/assets/img/icon-prev.svg");
 }

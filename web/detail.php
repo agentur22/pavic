@@ -63,7 +63,7 @@
                     <div class="cell medium-6">
                         <a class="prev" href="">
                             <i>
-                                Go back: Boom boom pow is et Letstrade. Boom boom pow is et Letstrade.Boom boom pow is et Letstrade.Boom boom pow is et Letstrade.
+                                Go back: Boom boom pow is et Letstrade. 
                             </i>
                         </a>
                     </div>
